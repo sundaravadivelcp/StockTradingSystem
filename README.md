@@ -31,14 +31,14 @@ Pre Requisites:
 4. Have Minimum of Java 1.8 setup in your system
 
 ## How to Run
-###Docker
+### Docker
 1. Open Docker desktop
 2. Run the following command in cmd/GIT cmd to run docker container for PostGres server instance
     ```
    docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=password -d postgres
    ```
 
-###PgAdmin
+### PgAdmin
 1. Open PgAdmin and create database server using the UI under Dashboard with following details:
 ```
 Server Name: stock-trading-db
@@ -52,14 +52,14 @@ Password: password
 Name: stock-trading-db
 ```
 
-###Intellij
+### Intellij
 1. Download the source code
 2. Open Intellij
 3. Open the code as maven project and let the IDE create indexes and initialize the Spring project
 4. Run src\main\java\com\stock\trading\StockTradingSystemApplication.java as Spring boot application (Run button next to Class name)
 
 
-###Browser
+### Browser
 1. Open Chrome, Edge browsers and incognito instances to login as different users.
 2. Type "localhost:8080" in address bar
 3. Login:
@@ -80,7 +80,7 @@ Name: stock-trading-db
 4. As admin, Create stock using the UI provided in the menu at the top.
 5. As the new user explore the features of the app.
 
-###Features
+### Features
 - Admin
 1. Can see the current stock market.
 2. Can see details of each stock present in the marketplace.
