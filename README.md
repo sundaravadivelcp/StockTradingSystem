@@ -100,5 +100,4 @@ Name: stock-trading-db
 
 ## Author
 Name: Sundaravadivel Chandrasekaran Ponmudi \
-Email ID: sundaravadivelcp@gmail.com \
-Demo Video: [Demo Video](https://youtu.be/iXIrzWYfaTg)
+Email ID: sundaravadivelcp@gmail.com
